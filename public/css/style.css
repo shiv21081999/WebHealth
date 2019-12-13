@@ -1,0 +1,144 @@
+h5{
+    position: relative;
+    top : 10px;
+    color : grey;
+    font-size: 11pt;
+}
+h3{
+    position : relative;
+    top : 50px;
+}
+body{
+    background-color: #F3F5F7;
+}
+
+.main-content{
+    height : 500px ;
+    width : 788px;
+    position : absolute;
+}
+.frame{
+    margin : 0px;
+}
+.webhealth{
+    width : 100%;
+    color : white;
+    height : 90px;
+    background-color: #1576D1;
+}
+.nameing{
+    position : absolute;
+    color : white;
+    font-weight: bold;
+}
+.linking{
+    color : #FFFFFF;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    position : absolute;
+    text-decoration: none;
+}
+.linking:hover {
+    color : white;
+    text-decoration-line: none;
+}
+.content{
+    position : absolute;
+    left : 50%;
+    -webkit-transform: translate(-50%,-50%);
+    top : 50%;
+    background-color: white;
+    height : 500px;
+    width: 788px;
+    margin: 0;
+    /* left : 315px; */
+}
+.intro{
+    position : absolute;
+    height : 300px;
+    width : 300px;
+    top : 80px;
+    left : 80px;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+    position : absolute;
+    top : 28%;
+}
+.hello{
+    position : absolute;
+    left : 10%;
+}
+#pic{
+    height : 220px;
+    width : 270px;
+    /* position : absolute; */
+    margin : 0px;
+}
+.button{
+    position : absolute;
+    width : 100%;
+    height : 100px;
+    bottom : 0px;
+    border-top : 1px solid lightgrey;
+    
+}
+.back{
+    background-color: #F55959;
+    box-shadow: #F55959;
+    margin: 0px;
+    width:100px;
+    height:45px;
+    font-family: 'Calibri';
+    font-size: 13pt;
+    font-weight: bold;
+    position : absolute;
+    left : 30px;
+    border : 0px;
+    transition: 0.1s;
+    top : 50%;
+    transform: translateY(-50%);
+}
+.back:hover{
+    background-color: #F54B4B;
+    transition: 0.1s;
+    top : 50%;
+    transform: translateY(-50%);
+}
+.next{
+    background-color: #1AC98E;
+    box-shadow: #1AC98E;
+    margin: 0px;
+    width:100px;
+    height:45px;
+    font-family: 'Calibri';
+    font-size: 13pt;
+    font-weight: bold;
+    position : absolute;
+    right : 30px;
+    border : 0px;
+    transition: 0.1s;
+    top : 50%;
+    transform: translateY(-50%);
+}
+.next:hover{
+    background-color: #03BC4B;
+    transition: 0.1s;
+    top : 50%;
+    transform: translateY(-50%);
+}
+.pic-div{
+    margin : 0px;
+    height : 220px;
+    width : 270px;
+    position : absolute;
+    top : 80px;
+    right : 80px;
+}
+.visited
+{
+    visibility : hidden;
+    z-index: -1;
+}

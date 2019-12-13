@@ -1,0 +1,49 @@
+.main-content1{
+    height : 500px ;
+    width : 788px;
+    position : absolute;
+}
+.male{
+    position : absolute;
+    border : 1px solid grey;
+    margin : 3px;
+    top : 150px;
+    right : 260px;
+    height : 150px;
+    width: 120px;
+    text-decoration-color: grey;
+    border-radius: 5px;
+}
+#imgf{
+    position: relative;
+    top : 10px;
+    height : 85px;
+    width : 50px;
+}
+#imgm{
+    position: relative;
+    top : 10px;
+    height : 85px;
+    width : 50px;
+}
+.female{
+    position : absolute;
+    left : 260px;
+    top : 150px;
+    border : 1px solid grey;
+    margin : 3px;
+    height : 150px;
+    width: 120px;
+    text-decoration-color: grey;
+    border-radius: 5px;
+}
+.female:hover {
+    border : 2px solid grey;
+}
+.male:hover {
+    border : 2px solid grey;
+}
+h1{
+    position : relative;
+    top : 50px;
+}
